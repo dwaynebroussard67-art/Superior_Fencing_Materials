@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Superior Building Materials | Get a Free Quote in South Louisiana</title>
+  <meta name="description" content="Contact Superior Building Materials for a free quote on fencing, custom gates, or materials. Call 337-400-7838 or visit us in Broussard, Louisiana.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header id="site-header">
+    <nav class="nav-bar">
+      <a href="index.html" class="logo-link">Superior Building Materials</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-dropdown-wrapper">
+          <a href="#">Services</a>
+          <ul class="nav-dropdown">
+            <li><a href="residential-fencing.html">Residential Fencing</a></li>
+            <li><a href="commercial-fencing.html">Commercial Fencing</a></li>
+            <li><a href="custom-gates.html">Custom Gate Fabrication</a></li>
+            <li><a href="automatic-gates.html">Automatic Gate Systems</a></li>
+            <li><a href="materials-supply.html">Fencing Materials & Supply</a></li>
+            <li><a href="superior-fencing.html">Installation (Superior Fencing)</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service-area.html">Service Area</a></li>
+        <li><a href="why-us.html">Why Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="tel:+13374007838" class="phone-link">Call 337-400-7838</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="growth-banner">
+    <p>The fastest growing fencing and custom gate business in South Louisiana.</p>
+  </div>
+
+  <main>
+
+    <section id="page-hero" class="bg-steel picket-texture">
+      <div class="container text-center">
+        <h1>Get a Free Quote</h1>
+        <p class="promise">Let's build your fence or gate.</p>
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+
+          <h2>Request a Quote</h2>
+          <p style="margin-bottom: 2rem;">Fill out the form below and we'll get back to you within one business day. Or call us now at <a href="tel:+13374007838" style="font-weight: 600;">337-400-7838</a> for immediate assistance.</p>
+
+          <!-- TODO: replace netlify with a real form endpoint (e.g. Formspree, Netlify Forms, or custom backend) before launch. Form does not send until this is done. -->
+          <form netlify id="quote-form" netlify method="POST">
+
+            <label for="contact-name">Your Name *</label>
+            <input type="text" id="contact-name" name="name" class="form-control" required>
+
+            <label for="contact-phone">Phone Number *</label>
+            <input type="tel" id="contact-phone" name="phone" class="form-control" required>
+
+            <label for="contact-email">Email Address *</label>
+            <input type="email" id="contact-email" name="email" class="form-control" required>
+
+            <label for="contact-service">What are you interested in? *</label>
+            <select id="contact-service" name="service" class="form-control" required>
+              <option value="">— Select a service —</option>
+              <option value="residential-fencing">Residential Fencing</option>
+              <option value="commercial-fencing">Commercial Fencing</option>
+              <option value="custom-gates">Custom Gate Fabrication</option>
+              <option value="automatic-gates">Automatic Gate Systems</option>
+              <option value="materials-supply">Fencing Materials & Supply</option>
+              <option value="installation">Installation Services</option>
+              <option value="repair">Fence or Gate Repair</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+
+            <label for="contact-message">Tell us about your project *</label>
+            <textarea id="contact-message" name="message" class="form-control" rows="6" required placeholder="Describe what you need — measurements, materials, timeline, etc. The more detail you provide, the more accurate our quote will be."></textarea>
+
+            <button type="submit" class="btn-primary btn-large" style="width: 100%; margin-top: 1rem;">Submit Request</button>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container">
+        <h2 class="text-center">Contact Information</h2>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+
+          <div class="contact-detail-block">
+            <h3>Call Us</h3>
+            <p><a href="tel:+13374007838" style="font-size: 1.5rem; font-weight: 700;">337-400-7838</a></p>
+            <p>Fastest way to get answers and schedule service.</p>
+          </div>
+
+          <div class="contact-detail-block">
+            <h3>Email Us</h3>
+            <p><a href="mailto:bhebert@superiorbuildingmaterial.com">bhebert@superiorbuildingmaterial.com</a></p>
+            <p>We'll respond within one business day.</p>
+          </div>
+
+          <div class="contact-detail-block">
+            <h3>Visit Us</h3>
+            <p><strong>1004 Unit B, Albertsons Parkway<br>Broussard, Louisiana 70518</strong></p>
+            <p>Open 7am to 4pm, Monday through Friday</p>
+          </div>
+
+        </div>
+
+        <div id="service-map" style="margin-top: 3rem;">
+          <p>Map placeholder — Google Maps embed or location map will be placed here</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container text-center">
+        <h2>Prefer to Talk in Person?</h2>
+        <p style="font-size: 1.125rem; max-width: 700px; margin: 0 auto 2rem;">Stop by our location in Broussard. We're happy to show you materials, answer questions, and provide on-the-spot quotes for supply orders. For installation projects, we can schedule a site visit from our shop.</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=1004+Unit+B+Albertsons+Parkway+Broussard+LA+70518" target="_blank" rel="noopener" class="btn-secondary">Get Directions</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>Superior Building Materials</h4>
+        <p>The fastest growing fencing and custom gate business in South Louisiana.</p>
+        <p>Family-owned. Locally trusted. Built to last.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="why-us.html">Why Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="service-area.html">Service Area</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Departments</h4>
+        <ul>
+          <li><a href="residential-fencing.html">Residential Fencing</a></li>
+          <li><a href="commercial-fencing.html">Commercial Fencing</a></li>
+          <li><a href="custom-gates.html">Custom Gate Fabrication</a></li>
+          <li><a href="automatic-gates.html">Automatic Gate Systems</a></li>
+          <li><a href="materials-supply.html">Materials & Supply</a></li>
+          <li><a href="superior-fencing.html">Installation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p><a href="tel:+13374007838">337-400-7838</a></p>
+        <p><a href="mailto:bhebert@superiorbuildingmaterial.com">bhebert@superiorbuildingmaterial.com</a></p>
+        <p>1004 Unit B, Albertsons Parkway<br>Broussard, Louisiana 70518</p>
+        <p>Open 7am to 4pm, Monday through Friday</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Superior Building Materials. Serving South Louisiana.</p>
+    </div>
+  </footer>
+
+  <script src="menu.js"></script>
+
+</body>
+</html>
